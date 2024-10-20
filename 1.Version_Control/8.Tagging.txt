@@ -1,0 +1,8 @@
+- Tagging
+It refers to give a tag to a commit. It is used to give name to a release.
+
+- Command used to give tag to a commit is as follows:
+>> git tag -a TAG_NAME COMMIT_ID -m "MESSAGE"
+
+- To delete a tag the following command is used
+>> git tag -d TAG_NAME 

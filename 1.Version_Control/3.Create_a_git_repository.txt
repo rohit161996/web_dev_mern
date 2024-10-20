@@ -1,0 +1,19 @@
+Creating a git repository:
+1. Create a folder.
+2. Open the git bash.
+3. Go to the folder directory.
+4. Initialize the git repository.
+>> git init
+.git folder is created using this
+It contains the meta data of the repository.
+
+5. To list the file pointers.
+>> ls -al
+
+6. To check the changes in the files.
+>> git status
+or
+>> git diff
+
+7. To get the repository on the local environment from github.
+>> git clone GIT_REPO_LINK

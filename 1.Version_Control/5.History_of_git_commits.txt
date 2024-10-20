@@ -1,0 +1,18 @@
+Review History in Git Repository
+- To view all the commits of the git repository
+>> git log
+
+- To view latest n number of commits in the git repo
+>> git log -n
+
+- To view latest changes of commits in the git repo
+>> git log -p
+
+- To view only the commit id and commit messages.
+>> git log --oneline
+
+- To view which all files are modified.
+>> git log --stat
+
+- To view changes in the commit 
+>> git show COMMIT_ID

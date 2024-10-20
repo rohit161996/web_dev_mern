@@ -1,0 +1,7 @@
+GIT IGNORE
+- To hide or ignore files from the git we mention the file names in the file named .gitignore
+
+- For e.g. to ignore all the text files from git
+- add *.txt line to .gitignore
+
+- We commit the .gitignore file.

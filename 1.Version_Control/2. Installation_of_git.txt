@@ -1,0 +1,15 @@
+Installation of Git:
+Download git and install for 64bit.
+
+Git Commands:
+1. To check the git is installed or not.
+git --version
+
+2. Setup configurations.
+git config --global user.name "rohit161996"
+git config --global user.email "rohitramchandanistm1996@gmail.com"
+
+3. Check configurations.
+git config --list
+
+Download git bash for running command line arguments.

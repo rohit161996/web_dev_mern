@@ -1,0 +1,17 @@
+Branching
+- To list all the branches we can run
+>> git branch
+
+- To create a new branch we can run command
+>> git branch NEW_BRANCH
+
+- To switch to a new branch we can run the command
+>> git checkout NEW_BRANCH
+
+- To delete a git branch, the following command can be executed
+>> git branch -d BRANCH_NAME
+
+- To merge a branch to the current branch 
+>> git merge BRANCH_NAME
+
+- If there are merge conflicts then resolve those and then commit and push to the branch

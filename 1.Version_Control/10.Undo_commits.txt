@@ -1,0 +1,20 @@
+Undo commits
+- To ammend the commit use the command
+>> git commit --ammend
+
+- To revert the Commit use the command
+>> git revert COMMIT_ID
+
+- To delete the COmmit use the Command
+>> git delete 
+
+
+Git Reset Commands
+- To show the changes as staged, use command:
+git reset --soft
+
+-To move the head to the position where we want and show changes as modification, use command:
+git reset --mixed
+
+- To discard all the local changes from the working dirctory use command:
+git reset --hard

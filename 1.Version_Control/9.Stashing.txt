@@ -1,0 +1,14 @@
+- Stashing 
+- If we have some local changes then we will not be able to do git pull untill we take backup of
+  the files locally or stash those changes.
+
+- Command to stash the changes on to the git
+>> git stash list
+
+- After this we can pull the code from the server
+>> git pull
+
+- After this if we wan our code back use command
+>> git stash apply
+
+- If we receive the merge conflict then resolve the conflict and commit the changes.

@@ -1,0 +1,13 @@
+What is Version Control?
+- Make save points that saves the project like in Word Doc Ctrl+Z saves the version of the text.
+- Provides total development freedom.
+-e.g., git subversion, perforce
+
+- Git is a version control tool.
+- Github is a service that hosts git repositories.
+
+What is a repository?
+- It is a folder in which we have .git which means git watches the folder.
+- It watches the files in the folder.
+
+

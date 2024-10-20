@@ -1,0 +1,24 @@
+Life cycle of a changes
+- There are three areas of the git repository.
+1. Working Area
+- This area contains temporary changes, to send the files to staging area.
+>> git add FILE_NAME1, FILE_NAME2
+
+2. Staging area
+- This area contains the changes which are about to commit.
+>> git commit -m "Commit Message"
+
+- Check the commit using the command
+>> git log
+
+- To restore the file from the staging area
+>> git restore FILE_NAME1
+
+NOTE:
+To add and commit both at the same time.
+>> git -am FILE_NAME1, FILE_NAME2...
+
+
+3. Repository area 
+- We send the files from the staging area to the repository.
+>> git push -u origin master
